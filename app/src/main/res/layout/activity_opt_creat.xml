@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@drawable/no"
+    tools:context="com.example.dhruvik.smarttt.OptCreat">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:layout_height="0dp"
+        android:background="#c5b3100d"
+        android:orientation="horizontal"
+        >
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="save"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:background="#95975a58"
+            android:textColor="#d6ffffff"
+            android:layout_marginHorizontal="50dp"
+            tools:layout_editor_absoluteX="300dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#45484d4e"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/lac_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Lacture 1"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:hint="Lacture 2"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:textColor="#fffbfb"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:hint="Lacture 3"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:textColor="#faf4f4"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:hint="Lacture 4"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:textColor="#ede7e7"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:hint="Lacture 5"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:textColor="#dfd4d4"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:hint="Lacture 6"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:hint="Lacture 7"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:textColor="#fafafa"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:hint="Lacture 8"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:textColor="#fffefe"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:hint="Lacture 9"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:hint="Lacture 10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+    </ScrollView>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_weight="10"
+       android:layout_height="0dp"
+       android:orientation="vertical"
+       android:background="#c7616061">
+
+       <Button
+           android:id="@+id/create"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:textSize="19dp"
+           android:textStyle="bold"
+           android:background="#d29c1515"
+           android:textColor="#d6f4f4f4"
+           android:text="Create"/>
+
+   </LinearLayout>
+</LinearLayout>

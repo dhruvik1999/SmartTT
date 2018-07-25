@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dhruvik.smarttt">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_ALARM"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/newico"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Firest_Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".First" />
+        <activity android:name=".Home" />
+        <activity android:name=".JoinGroup" />
+        <activity android:name=".OptJoin" />
+        <activity android:name=".OptCreat" />
+        <activity android:name=".Share" />
+        <activity android:name=".Change" />
+        <activity android:name=".setting" />
+        <activity android:name=".GenId" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".About" />
+        <activity android:name=".Help" />
+        <activity android:name=".ErrorDATA" />
+        <activity android:name=".Error_Help" />
+
+        <receiver android:name=".Notification_reciver"/>
+    </application>
+
+</manifest>

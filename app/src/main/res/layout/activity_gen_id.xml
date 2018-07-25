@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/no"
+    android:orientation="horizontal"
+    tools:context="com.example.dhruvik.smarttt.GenId">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#a4534e4e"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/MobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:fontFamily="@font/amita"
+            android:hint="Mobile No."
+            android:textColor="#afffffff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/gk"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#adcf1313"
+
+            android:fontFamily="@font/amita"
+            android:text="Create"
+            android:textColor="#ffff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Enter the mobile no. for creating the class group and generate the unique id of your class."
+            android:textColor="#d2cccc" />
+
+    </LinearLayout>
+</LinearLayout>

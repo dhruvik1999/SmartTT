@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="@drawable/no"
+    android:orientation="vertical"
+    tools:context="com.example.dhruvik.smarttt.Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <Button
+            android:id="@+id/change"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:background="@drawable/set"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_weight="10"
+        android:background="@drawable/no"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/amita"
+            android:gravity="center"
+            android:text="Day"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="#f4f5f5"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lac_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical|center"
+                android:fadingEdge="none"
+                android:fontFamily="@font/londrina_shadow"
+                android:gravity="center"
+                android:onClick="tip"
+                android:text="Free lacture"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#500039"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/lac_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/londrina_shadow"
+                android:gravity="center"
+                android:onClick="tip"
+                android:text="Free lacture"
+                android:textColor="#910239"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lac_3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/londrina_shadow"
+                android:gravity="center"
+                android:onClick="tip"
+                android:text="Free lacture"
+                android:textColor="#c60039"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lac_4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/londrina_shadow"
+                android:gravity="center"
+                android:onClick="tip"
+                android:text="Free lacture"
+                android:textColor="#fd5733"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lac_5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/londrina_shadow"
+                android:gravity="center"
+                android:onClick="tip"
+                android:text="Free lacture"
+                android:textColor="#fdc201"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lac_6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/londrina_shadow"
+                android:gravity="center"
+                android:onClick="tip"
+                android:text="Free lacture"
+                android:textColor="#590742"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lac_7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/londrina_shadow"
+                android:gravity="center"
+                android:onClick="tip"
+                android:text="Free lacture"
+                android:textColor="#c60039"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lac_8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/londrina_shadow"
+                android:gravity="center"
+                android:onClick="tip"
+                android:text="Free lacture"
+                android:textColor="#fd5733"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lac_9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/londrina_shadow"
+                android:gravity="center"
+                android:onClick="tip"
+                android:text="Free lacture"
+                android:textColor="#fdc201"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/lac_10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/londrina_shadow"
+                android:gravity="center"
+                android:onClick="tip"
+                android:text="Free lacture"
+                android:textColor="#8bff0026"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+    </LinearLayout>
+</LinearLayout>

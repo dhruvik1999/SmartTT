@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/no"
+    android:padding="50dp"
+    tools:context="com.example.dhruvik.smarttt.setting">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/amita"
+        android:gravity="center"
+        android:text="Settings"
+        android:textColor="#d9f0f0f1"
+        android:textSize="37dp" />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#ebff1f41"
+        android:fontFamily="@font/amita"
+        android:textColor="#dff0f0f1"
+        android:text="Change"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/share"
+        android:background="#ebff1f41"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/amita"
+        android:textColor="#dff0f0f1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="share ID of class" />
+    <Button
+        android:id="@+id/lieve"
+        android:background="#ebff1f41"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:fontFamily="@font/amita"
+        android:textColor="#dff0f0f1"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="leave class" />
+
+    <Button
+        android:id="@+id/delete"
+        android:background="#ebff1f41"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/amita"
+        android:textColor="#dff0f0f1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pdelete class" />
+
+    <Button
+        android:id="@+id/help"
+        android:background="#ebff1f41"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/amita"
+        android:textColor="#dff0f0f1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="help" />
+
+    <Button
+        android:id="@+id/about"
+        android:background="#ebff1f41"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:fontFamily="@font/amita"
+        android:textColor="#dff0f0f1"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="about" />
+
+
+</LinearLayout>

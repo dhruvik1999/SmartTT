@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:background="@drawable/no"
+    tools:context="com.example.dhruvik.smarttt.Firest_Home">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/newico" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#321a1919">
+
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/Animation.AppCompat.Tooltip"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:fontFamily="@font/amita"
+            android:gravity="center"
+            android:text="Smart TT"
+            android:textColor="#ffffff"
+            android:textSize="65dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="@style/AlertDialog.AppCompat.Light"
+            android:layout_width="93dp"
+            android:layout_height="92dp"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="120dp"
+            tools:layout_editor_absoluteY="249dp"
+            tools:style="@android:style/Animation.Dialog" />
+
+    </LinearLayout>
+</LinearLayout>

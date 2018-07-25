@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "852206436613",
+    "firebase_url": "https://smart-tt.firebaseio.com",
+    "project_id": "smart-tt",
+    "storage_bucket": "smart-tt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852206436613:android:fdfb10bc20074ce8",
+        "android_client_info": {
+          "package_name": "com.example.dhruvik.smarttt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852206436613-gch5013njaija2a8trlme1j2u7t2el8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dhruvik.smarttt",
+            "certificate_hash": "b90a1f08cb4dea78d66657f8434d5c2a79f88fa0"
+          }
+        },
+        {
+          "client_id": "852206436613-ddnajqo3co9l7qle63scd8fvs3gfuipn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaywTkPuhRAtbvV1FM8YbBxRoDJoubUPI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852206436613-ddnajqo3co9l7qle63scd8fvs3gfuipn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

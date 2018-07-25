@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/noo"
+    tools:context="com.example.dhruvik.smarttt.OptJoin">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:background="#c6e1f0f4"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#a4e7b6d6"
+            android:fontFamily="@font/amita"
+            android:gravity="center"
+            android:hint="Class Id"
+            android:textColor="#d6ae7853"
+            android:textSize="30dp"
+            android:textStyle="bold"></EditText>
+
+
+        <ProgressBar
+            android:id="@+id/lol"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/butjoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#9adf948f"
+            android:fontFamily="@font/amita"
+            android:text="Join class"
+            android:textColor="#e97800" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* please enter the class id shared by the class representative."
+            android:textColor="#2d2727"/>
+
+    </LinearLayout>
+</LinearLayout>

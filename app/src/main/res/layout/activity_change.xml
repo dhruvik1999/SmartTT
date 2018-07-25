@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+
+    tools:context="com.example.dhruvik.smarttt.Change">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_weight="9"
+        android:layout_height="0dp"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:background="#ca2626">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:textDirection="inherit"
+            android:textAlignment="center"
+            android:layout_height="match_parent"
+             />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="save"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:typeface="sans"
+            android:textColor="#f9f6f6"
+            android:background="#d9f1584d"
+            android:layout_marginHorizontal="50dp"
+            />
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="82">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#2d763814"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/lac_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:typeface="sans"
+
+                android:gravity="center"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:text="dhruvik"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:typeface="sans"
+
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:typeface="sans"
+
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:typeface="sans"
+
+                android:layout_marginTop="10dp"
+                android:ems="10"
+
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:typeface="sans"
+
+                android:layout_marginTop="10dp"
+                android:ems="10"
+
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:typeface="sans"
+
+                android:layout_marginTop="10dp"
+                android:ems="10"
+
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:typeface="sans"
+
+
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:typeface="sans"
+
+
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:typeface="sans"
+
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/lac_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:typeface="sans"
+
+
+                android:inputType="textPersonName" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="9"
+        android:layout_height="0dp"
+        android:padding="4dp"
+        android:orientation="horizontal"
+        android:background="#daab3a34">
+        <Button
+            android:id="@+id/create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:typeface="sans"
+            android:padding="10dp"
+            android:textColor="#f9f6f6"
+            android:background="#e13333"
+            android:text="Create"/>
+
+    </LinearLayout>
+</LinearLayout>
